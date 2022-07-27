@@ -3,15 +3,26 @@
 // création de l'identifiant
 
 // déclaration dotenv
+// déclaration express
 
 //let user = {
 //     id: 42,
-//     name: 'Yoan',
-//     email: 'yoan.laplace28@gmail.com',
+//     name: 'Oui',
+//     email: 'ZEFQERG@gmail.com',
 //     admin: true,
 // };
 
+//-----------------------------------------------------------------------------------------------
 
+// Vérification si l'utilisateur existe déja
+
+//déclaration module express-validator
+
+//si{identifiant déja existant{
+        //renvoyer un message "code erreur 403 : l'identifiant existe déja";
+        //else{return next
+        //}
+//}}
 
 //-----------------------------------------------------------------------------------------------
 
@@ -25,21 +36,10 @@
 
 //------------------------------------------------------------------------------------------------
 
-// création des routes + verification mot de passe / email
+// création des routes
 
 // déclarer express
 
-//  si {identifiant ne correspond pas {     
-        //envoyer message d'erreur 401
-//         sinon { continuer
-//         };   
-//  };
-
-//  si {mdp ne correspond pas {
-        //envoyer message d'erreur 401
-//          sinon { continuer
-//          }   
-//  }
 //     const accessToken = generateAccessToken(user);
 //     res.send({
 //         accessToken,
@@ -49,6 +49,8 @@
 //--------------------------------------------------------------------------------------------------
 
 // Refresh Token
+
+//
 
 
 
